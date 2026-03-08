@@ -12,7 +12,7 @@ from urllib.parse import urlparse
 API_ID = 35384207
 API_HASH = "09c4bc9de62a417ccdd0c69b33912515"
 BOT_TOKEN = "8518219738:AAEtt9Pfr5JUitlukorNMlLB2Epc47cNPt4" # Replace with your Bot Token
-ADMIN_ID = [8538835940,8199994609 , 8515333615] # Replace with your Admin ID(s)
+ADMIN_ID = [6263030724,8538835940,8199994609 , 8515333615] # Replace with your Admin ID(s)
 GROUP_ID = -1003413954160 # Replace with your Group ID
 
 # Files
@@ -2223,4 +2223,5 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
 
